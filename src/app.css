@@ -1,0 +1,100 @@
+:root {
+  /* Victorian-era mystical dark theme color palette */
+  --color-bg-primary: #1a0f2e;        /* Deep purple-black background */
+  --color-bg-secondary: #2a1a3e;      /* Slightly lighter purple for cards/modals */
+  --color-bg-tertiary: #3a2550;       /* Hover states and overlays */
+  
+  --color-text-primary: #e8dff5;      /* Light lavender for primary text */
+  --color-text-secondary: #c4b5d5;    /* Muted lavender for secondary text */
+  --color-text-muted: #8a7a9a;        /* Dimmed text for less important info */
+  
+  --color-accent-gold: #d4af37;       /* Victorian gold for highlights */
+  --color-accent-gold-hover: #f0c952; /* Brighter gold for hover states */
+  --color-accent-purple: #7b4b94;     /* Rich purple accent */
+  --color-accent-purple-hover: #9a5fb5; /* Lighter purple for hover */
+  
+  --color-border: #4a3a5a;            /* Subtle borders */
+  --color-border-light: #5a4a6a;      /* Lighter borders for emphasis */
+  
+  --color-overlay: rgba(26, 15, 46, 0.85); /* Semi-transparent overlay */
+  --color-shadow: rgba(0, 0, 0, 0.5);      /* Shadows for depth */
+  
+  /* Typography */
+  font-family: 'Georgia', 'Times New Roman', serif;
+  line-height: 1.6;
+  font-weight: 400;
+
+  /* Color scheme */
+  color-scheme: dark;
+  color: var(--color-text-primary);
+  background-color: var(--color-bg-primary);
+
+  /* Rendering optimizations */
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: var(--color-accent-gold);
+  text-decoration: inherit;
+  transition: color 0.25s ease;
+}
+a:hover {
+  color: var(--color-accent-gold-hover);
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: var(--color-bg-primary);
+  color: var(--color-text-primary);
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+  color: var(--color-accent-gold);
+  text-shadow: 0 2px 8px var(--color-shadow);
+}
+
+.card {
+  padding: 2em;
+}
+
+#app {
+  width: 100%;
+  min-height: 100vh;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid var(--color-border);
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: var(--color-bg-secondary);
+  color: var(--color-text-primary);
+  cursor: pointer;
+  transition: all 0.25s ease;
+  box-shadow: 0 2px 4px var(--color-shadow);
+}
+button:hover {
+  border-color: var(--color-accent-gold);
+  background-color: var(--color-bg-tertiary);
+  box-shadow: 0 4px 8px var(--color-shadow);
+}
+button:focus,
+button:focus-visible {
+  outline: 2px solid var(--color-accent-gold);
+  outline-offset: 2px;
+}
+
+@media (prefers-color-scheme: light) {
+  /* Force dark theme regardless of system preference */
+  /* This game is designed exclusively for dark mode */
+}

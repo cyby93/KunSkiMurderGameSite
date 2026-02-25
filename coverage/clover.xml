@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1771948733175" clover="3.2.0">
+  <project timestamp="1771948733175" name="All files">
+    <metrics statements="71" coveredstatements="71" conditionals="9" coveredconditionals="9" methods="24" coveredmethods="24" elements="104" coveredelements="104" complexity="0" loc="71" ncloc="71" packages="1" files="3" classes="3"/>
+    <file name="DatabaseService.ts" path="C:\Workspace\KunSkiMurderGameSite\src\lib\services\DatabaseService.ts">
+      <metrics statements="55" coveredstatements="55" conditionals="7" coveredconditionals="7" methods="15" coveredmethods="15"/>
+      <line num="3" count="1" type="stmt"/>
+      <line num="12" count="422" type="stmt"/>
+      <line num="13" count="422" type="stmt"/>
+      <line num="21" count="422" type="stmt"/>
+      <line num="31" count="422" type="stmt"/>
+      <line num="43" count="422" type="stmt"/>
+      <line num="59" count="106" type="stmt"/>
+      <line num="60" count="106" type="cond" truecount="2" falsecount="0"/>
+      <line num="61" count="1" type="stmt"/>
+      <line num="65" count="105" type="stmt"/>
+      <line num="68" count="105" type="stmt"/>
+      <line num="69" count="105" type="stmt"/>
+      <line num="70" count="105" type="stmt"/>
+      <line num="73" count="105" type="stmt"/>
+      <line num="74" count="105" type="stmt"/>
+      <line num="76" count="105" type="stmt"/>
+      <line num="81" count="105" type="stmt"/>
+      <line num="83" count="105" type="stmt"/>
+      <line num="95" count="112" type="stmt"/>
+      <line num="101" count="112" type="stmt"/>
+      <line num="103" count="112" type="cond" truecount="2" falsecount="0"/>
+      <line num="104" count="108" type="stmt"/>
+      <line num="107" count="4" type="stmt"/>
+      <line num="120" count="414" type="stmt"/>
+      <line num="121" count="414" type="stmt"/>
+      <line num="126" count="414" type="stmt"/>
+      <line num="127" count="5515" type="stmt"/>
+      <line num="128" count="5515" type="stmt"/>
+      <line num="129" count="5515" type="stmt"/>
+      <line num="131" count="5515" type="stmt"/>
+      <line num="133" count="5515" type="stmt"/>
+      <line num="141" count="414" type="stmt"/>
+      <line num="149" count="111" type="stmt"/>
+      <line num="154" count="111" type="stmt"/>
+      <line num="161" count="1635" type="stmt"/>
+      <line num="175" count="495" type="stmt"/>
+      <line num="181" count="495" type="stmt"/>
+      <line num="188" count="495" type="cond" truecount="2" falsecount="0"/>
+      <line num="189" count="1" type="stmt"/>
+      <line num="192" count="494" type="stmt"/>
+      <line num="205" count="106" type="stmt"/>
+      <line num="211" count="106" type="stmt"/>
+      <line num="220" count="601" type="stmt"/>
+      <line num="221" count="601" type="stmt"/>
+      <line num="222" count="601" type="stmt"/>
+      <line num="224" count="601" type="stmt"/>
+      <line num="229" count="601" type="stmt"/>
+      <line num="231" count="601" type="stmt"/>
+      <line num="245" count="205" type="stmt"/>
+      <line num="250" count="205" type="stmt"/>
+      <line num="258" count="598" type="stmt"/>
+      <line num="273" count="2" type="stmt"/>
+      <line num="279" count="2" type="stmt"/>
+      <line num="287" count="2" type="stmt"/>
+      <line num="300" count="422" type="stmt"/>
+    </file>
+    <file name="VisibilityManager.ts" path="C:\Workspace\KunSkiMurderGameSite\src\lib\services\VisibilityManager.ts">
+      <metrics statements="8" coveredstatements="8" conditionals="2" coveredconditionals="2" methods="4" coveredmethods="4"/>
+      <line num="21" count="219" type="stmt"/>
+      <line num="22" count="219" type="stmt"/>
+      <line num="25" count="219" type="cond" truecount="2" falsecount="0"/>
+      <line num="26" count="184" type="stmt"/>
+      <line num="29" count="219" type="stmt"/>
+      <line num="42" count="114" type="stmt"/>
+      <line num="43" count="114" type="stmt"/>
+      <line num="54" count="6" type="stmt"/>
+    </file>
+    <file name="WinConditionEvaluator.ts" path="C:\Workspace\KunSkiMurderGameSite\src\lib\services\WinConditionEvaluator.ts">
+      <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="5"/>
+      <line num="20" count="104" type="stmt"/>
+      <line num="21" count="104" type="stmt"/>
+      <line num="22" count="104" type="stmt"/>
+      <line num="43" count="3090" type="stmt"/>
+      <line num="46" count="1054" type="stmt"/>
+      <line num="49" count="2884" type="stmt"/>
+      <line num="52" count="206" type="stmt"/>
+      <line num="54" count="206" type="stmt"/>
+    </file>
+  </project>
+</coverage>
